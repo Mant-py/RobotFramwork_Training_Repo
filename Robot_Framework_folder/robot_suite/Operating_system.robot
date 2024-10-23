@@ -10,5 +10,5 @@ TC1
         Log To Console    ${List_of_files}
         
 TC2
-    Create Dictionary    C:${/}Users${/}manist${/}OneDrive - KONGSBERG${/}Skrivebord${/}Myself${/}Automation Testing${/}Downloads
+    Create Dictionary    C:\km
     Directory Should Exist    C:${/}Users${/}manist${/}OneDrive - KONGSBERG${/}Skrivebord${/}Myself${/}Automation Testing${/}Downloads    

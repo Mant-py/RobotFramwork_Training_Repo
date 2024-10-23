@@ -4,13 +4,13 @@ Library    SeleniumLibrary
 
 
 *** Variables ***
-${BROWSER}    chrome
+${BROWSER}    Chrome
 ${URL}    https://opensource-demo.orangehrmlive.com/
 
 *** Keywords ***
 
 Launch Browser And Navigate
-    Open Browser    ${BROWSER}
+    Open Browser    browser=${BROWSER}    
     Maximize Browser Window    
     Set Selenium Implicit Wait    10s
     Go To    ${URL}
