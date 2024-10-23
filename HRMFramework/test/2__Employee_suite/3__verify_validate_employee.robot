@@ -1,10 +1,11 @@
 *** Settings ***
 Resource    ../../resource/base/CommonFunctionality.resource
+Resource    ../../resource/pages/login_page.resource
 *** Test Cases ***
 verify invalidlogin suite    
     Launch Browser And Navigate
-    Input Text    //input[@name="username"]    admin
-    Input Password    //input[@name="password"]    admin123
+    Enter username    admin
+    Enter password    admin123
     Click Element    //button[@type="submit"]
     Click Element    //span[normalize-space()='PIM']
     Click Element    //button[normalize-space()='Add']
