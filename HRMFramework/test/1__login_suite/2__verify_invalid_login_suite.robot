@@ -9,3 +9,4 @@ verify invalidlogin suite
     Input Password    //input[@name="password"]    admin123
     Click Element    //button[@type="submit"]
     Page Should Contain    Invalid credentials
+    

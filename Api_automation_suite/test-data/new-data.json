@@ -1,0 +1,18 @@
+{
+    "id": 1522,
+    "category": {
+      "id": 0,
+      "name": "string"
+    },
+    "name": "doggie_bada_vala_dog",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 152,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  }
