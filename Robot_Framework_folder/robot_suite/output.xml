@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.12.5 on win32)" generated="2024-10-21T11:39:33.834930" rpa="false" schemaversion="5">
+<suite id="s1" name="Demo1 Suite" source="C:\Users\manist\OneDrive - KONGSBERG\Skrivebord\Myself\.vscode\Python Robot Framework\RobotFrameWork_Repo\Robot_Framework_folder\robot_suite\demo1_suite.robot">
+<test id="s1-t1" name="TC3" line="23">
+<kw name="Get Current Date" owner="DateTime">
+<msg time="2024-10-21T11:39:33.861343" level="INFO">${Date} = 2024-10-21 11:39:33.861</msg>
+<var>${Date}</var>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<status status="PASS" start="2024-10-21T11:39:33.861343" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-10-21T11:39:33.861343" level="INFO">2024-10-21 11:39:33.861</msg>
+<arg>${Date}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-10-21T11:39:33.861343" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-10-21T11:39:33.861343" elapsed="0.000000"/>
+</test>
+<status status="PASS" start="2024-10-21T11:39:33.834930" elapsed="0.041318"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Demo1 Suite">Demo1 Suite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
